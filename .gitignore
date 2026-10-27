@@ -1,0 +1,9 @@
+.env
+*.env
+!.env.example
+node_modules/
+infra/external-emails.txt
+api/config/access.json
+api/config/projects.json
+*.log
+.DS_Store

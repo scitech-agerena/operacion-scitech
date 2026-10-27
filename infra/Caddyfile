@@ -1,0 +1,47 @@
+{$DOMAIN} {
+	encode gzip
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "same-origin"
+	}
+
+	# Rutas de login (sin autenticación previa)
+	handle /oauth2/* {
+		reverse_proxy oauth2-proxy:4180
+	}
+
+	# Todo lo demás exige sesión de Google válida
+	handle {
+		# El cliente nunca debe poder fijar la identidad
+		request_header -X-Auth-Request-Email
+
+		forward_auth oauth2-proxy:4180 {
+			uri /oauth2/auth
+			copy_headers X-Auth-Request-Email
+
+			@unauthorized status 401
+			handle_response @unauthorized {
+				redir * /oauth2/sign_in?rd={scheme}://{host}{uri}
+			}
+		}
+
+		handle /api/* {
+			reverse_proxy api:3000
+		}
+
+		handle {
+			root * /srv/www
+			file_server
+		}
+	}
+
+	log {
+		output file /data/access.log {
+			roll_size 20mb
+			roll_keep 10
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "_nota": "Copiar a access.json en el servidor (no se sube a Git). Todo lo que no esté aquí queda denegado. Los proyectos se escriben como 'sitio:CLAVE' o '*' para todos.",
+  "roles": {
+    "comite":  { "dashboards": ["*"] },
+    "pm":      { "dashboards": ["mesas-servicio"] },
+    "lider":   { "dashboards": ["mesas-servicio"] },
+    "cliente": { "dashboards": ["mesas-servicio"] }
+  },
+  "users": {
+    "persona.comite@scitech.com.co": { "role": "comite",  "projects": ["*"] },
+    "persona.pm@scitech.com.co":     { "role": "pm",      "projects": ["scitech:EJEMPLO1"] },
+    "contacto@cliente-ejemplo.com":  { "role": "cliente", "projects": ["scitech:EJEMPLO1"] }
+  }
+}

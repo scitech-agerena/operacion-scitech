@@ -1,0 +1,12 @@
+{
+  "name": "operacion-scitech-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "API intermedia: consulta Jira con caché y aplica control de acceso por rol y proyecto",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}

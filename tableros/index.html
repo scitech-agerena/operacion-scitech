@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Operación · SCITECH</title>
+  <link rel="stylesheet" href="/shared/brand.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Operación SCITECH</h1>
+    <p>Tableros vivos de la operación. Solo verás los que tu rol tiene habilitados.</p>
+  </header>
+  <main>
+    <section class="grid" id="lista"></section>
+    <div id="msg"></div>
+  </main>
+  <script>
+    // Catálogo de tableros. Agregar una entrada por cada carpeta nueva en tableros/.
+    const catalogo = [
+      { id: 'mesas-servicio', nombre: 'Mesas de servicio', descripcion: 'Solicitudes de soporte: volumen, resolución y pendientes.', ruta: '/mesas-servicio/' },
+    ];
+
+    (async () => {
+      const lista = document.getElementById('lista');
+      try {
+        const res = await fetch('/api/me', { credentials: 'same-origin' });
+        if (!res.ok) throw new Error(res.status === 403 ? 'Tu cuenta no tiene acceso a la plataforma.' : 'No se pudo cargar tu perfil.');
+        const me = await res.json();
+        const visibles = catalogo.filter((t) => me.dashboards.includes('*') || me.dashboards.includes(t.id));
+        for (const t of visibles) {
+          const card = document.createElement('a');
+          card.className = 'card';
+          card.href = t.ruta;
+          card.style.cssText = 'text-decoration:none;color:inherit;text-align:center';
+          const h = document.createElement('h2'); h.textContent = t.nombre;
+          const p = document.createElement('p'); p.textContent = t.descripcion; p.style.textAlign = 'justify';
+          card.append(h, p);
+          lista.append(card);
+        }
+        if (!visibles.length) document.getElementById('msg').textContent = 'No tienes tableros habilitados.';
+      } catch (err) {
+        const box = document.getElementById('msg');
+        box.className = 'error';
+        box.textContent = err.message;
+      }
+    })();
+  </script>
+</body>
+</html>

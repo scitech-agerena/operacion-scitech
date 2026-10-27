@@ -1,0 +1,7 @@
+{
+  "_nota": "Copiar a projects.json en el servidor. Lista blanca de proyectos Jira que la API puede consultar. 'sitio' debe coincidir con una variable JIRA_<SITIO>_URL del .env. Las claves de abajo son de EJEMPLO.",
+  "projects": [
+    { "site": "scitech",  "key": "EJEMPLO1", "name": "Mesa de servicio de ejemplo", "type": "mesa-servicio" },
+    { "site": "salud360", "key": "EJEMPLO2", "name": "Soporte Salud360 de ejemplo",  "type": "mesa-servicio" }
+  ]
+}

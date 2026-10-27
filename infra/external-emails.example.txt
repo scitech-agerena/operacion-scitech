@@ -1,0 +1,3 @@
+# Copiar a infra/external-emails.txt en el servidor (un correo por línea).
+# Solo para personas fuera del dominio corporativo (clientes). No subir el archivo real.
+# Además de estar aquí, cada correo debe tener acceso en api/config/access.json.
