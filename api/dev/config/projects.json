@@ -1,0 +1,7 @@
+{
+  "_nota": "Solo para el modo simulado de desarrollo (npm run dev). Datos ficticios.",
+  "projects": [
+    { "site": "demo", "key": "DEMO1", "name": "Mesa de servicio Demo A", "type": "mesa-servicio" },
+    { "site": "demo", "key": "DEMO2", "name": "Soporte Demo B",          "type": "mesa-servicio" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_nota": "Solo para el modo simulado de desarrollo (npm run dev). Datos ficticios.",
+  "roles": {
+    "comite":  { "dashboards": ["*"] },
+    "pm":      { "dashboards": ["mesas-servicio"] },
+    "cliente": { "dashboards": ["mesas-servicio"] }
+  },
+  "users": {
+    "comite@demo.local":  { "role": "comite",  "projects": ["*"] },
+    "pm@demo.local":      { "role": "pm",      "projects": ["demo:DEMO1"] },
+    "cliente@demo.local": { "role": "cliente", "projects": ["demo:DEMO1"] }
+  }
+}

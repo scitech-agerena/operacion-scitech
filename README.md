@@ -30,4 +30,10 @@ Navegador ──HTTPS──> Caddy ──> oauth2-proxy (login Google, dominio s
 - El filtrado por cliente se hace siempre en la API, nunca en el navegador.
 - Cambios a `main` mediante pull request.
 
-Guía de despliegue: [`docs/despliegue.md`](docs/despliegue.md) · Seguridad: [`docs/seguridad.md`](docs/seguridad.md)
+Guía de despliegue: [`docs/despliegue.md`](docs/despliegue.md) · Seguridad: [`docs/seguridad.md`](docs/seguridad.md) · Pruebas locales: [`docs/desarrollo-local.md`](docs/desarrollo-local.md)
+
+## Probar en local
+
+```bash
+cd api && npm run dev     # Jira simulado → http://localhost:8080
+```
