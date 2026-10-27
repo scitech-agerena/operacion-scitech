@@ -10,6 +10,7 @@ services:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - ../tableros:/srv/www:ro
       - ../shared:/srv/www/shared:ro
+      - publicado:/srv/generados:ro
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
@@ -49,6 +50,22 @@ services:
       - ../api/config:/app/config:ro
     # Sin "ports": la API solo es accesible desde Caddy dentro de la red de Docker.
 
+  jobs:
+    build: ../jobs
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      # Tableros que el servidor genera. Durante la prueba en paralelo solo la mesa interna.
+      JOBS_ACTIVOS: ${JOBS_ACTIVOS:-interna_nueva}
+      INTERVALO_MIN: ${INTERVALO_MIN:-30}
+      TZ: America/Bogota
+    volumes:
+      - publicado:/publicado
+      - estado:/estado
+    # Sin "ports": solo escribe HTML en el volumen y consulta Jira (solo lectura).
+
 volumes:
+  publicado:
+  estado:
   caddy_data:
   caddy_config:

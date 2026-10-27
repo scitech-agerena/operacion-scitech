@@ -1,3 +1,16 @@
+# Tablero generado por el servidor: antes de entregarlo, la API confirma que el rol del usuario lo permite.
+(tablero) {
+	handle /{args[0]}/* {
+		forward_auth api:3000 {
+			uri /api/authz/{args[0]}
+		}
+		root * /srv/generados
+		file_server
+	}
+	@{args[0]}_sin_barra path /{args[0]}
+	redir @{args[0]}_sin_barra /{args[0]}/
+}
+
 {$DOMAIN} {
 	encode gzip
 
@@ -31,6 +44,8 @@
 		handle /api/* {
 			reverse_proxy api:3000
 		}
+
+		import tablero mesas-interna
 
 		handle {
 			root * /srv/www

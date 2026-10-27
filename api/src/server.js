@@ -51,6 +51,12 @@ export function createServer(config) {
         return send(res, 200, { email: user.email, rol: user.role, dashboards: user.dashboards, proyectos: projects });
       }
 
+      // Lo consulta Caddy (forward_auth) antes de entregar un tablero generado: 204 = permitido, 403 = denegado.
+      const authz = url.pathname.match(/^\/api\/authz\/([a-z0-9-]{1,40})$/);
+      if (authz) {
+        return canSeeDashboard(user, authz[1]) ? (res.writeHead(204), res.end()) : send(res, 403, { error: 'Sin acceso' });
+      }
+
       if (url.pathname === '/api/mesas') {
         if (!canSeeDashboard(user, 'mesas-servicio')) return send(res, 403, { error: 'Sin acceso' });
 

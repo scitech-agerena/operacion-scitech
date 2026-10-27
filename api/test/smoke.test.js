@@ -119,3 +119,16 @@ test('método distinto de GET: 405', async () => {
   const res = await fetch(base + '/api/me', { method: 'POST', headers: { 'X-Auth-Request-Email': 'comite@scitech.com.co' } });
   assert.equal(res.status, 405);
 });
+
+test('authz por tablero: comité 204, cliente y rol ajeno 403, sin identidad 403', async () => {
+  assert.equal((await get('/api/authz/mesas-interna', 'comite@scitech.com.co')).status, 204);
+  assert.equal((await get('/api/authz/mesas-interna', 'cli@externo.com')).status, 403);
+  assert.equal((await get('/api/authz/mesas-servicio', 'cli@externo.com')).status, 204);
+  assert.equal((await get('/api/authz/colaboradores', 'sin@scitech.com.co')).status, 403);
+  assert.equal((await get('/api/authz/mesas-interna')).status, 403);
+});
+
+test('authz: identificador inválido no llega a la comprobación (404)', async () => {
+  assert.equal((await get('/api/authz/..%2Fme', 'comite@scitech.com.co')).status, 404);
+  assert.equal((await get('/api/authz/MESAS', 'comite@scitech.com.co')).status, 404);
+});

@@ -8,3 +8,7 @@ api/config/access.json
 api/config/projects.json
 *.log
 .DS_Store
+
+# Salidas locales de los trabajos
+jobs/salida/
+__pycache__/

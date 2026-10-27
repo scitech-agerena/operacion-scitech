@@ -1,0 +1,1876 @@
+{
+ "sd": [
+  {
+   "key": "SCIMSI-97",
+   "fields": {
+    "summary": "Solicitud de prueba 1",
+    "issuetype": {
+     "id": "10411",
+     "name": "Requerimiento",
+     "subtask": false
+    },
+    "created": "2026-10-06T09:27:49.593-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-1",
+     "displayName": "Persona 1",
+     "active": true
+    },
+    "priority": {
+     "name": "Mediana",
+     "id": "3"
+    },
+    "customfield_10552": {
+     "value": "Admin-Talento Humano",
+     "id": "10348",
+     "child": {
+      "value": "Solicitud de permiso",
+      "id": "10354"
+     }
+    },
+    "customfield_10200": [],
+    "customfield_10686": null,
+    "resolutiondate": "2026-10-06T11:13:53.535-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-06T09:27:49-0500",
+        "jira": "2026-10-06T09:27:49.593-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-06T11:13:53-0500",
+        "jira": "2026-10-06T11:13:53.555-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-14T10:27:49-0500",
+        "jira": "2026-10-14T10:27:49.593-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 144000000
+       },
+       "elapsedTime": {
+        "millis": 6363962
+       },
+       "remainingTime": {
+        "millis": 137636038
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-06T09:27:49-0500",
+        "jira": "2026-10-06T09:27:49.593-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-06T09:27:54-0500",
+        "jira": "2026-10-06T09:27:54.813-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-07T10:57:49-0500",
+        "jira": "2026-10-07T10:57:49.593-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 28800000
+       },
+       "elapsedTime": {
+        "millis": 5220
+       },
+       "remainingTime": {
+        "millis": 28794780
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134167",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "185824",
+       "key": "SMDSIS-97",
+       "fields": {
+        "summary": "Solicitud de permiso para el día Miércoles 07 de Octubre del 2026  ",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Mediana",
+         "id": "3"
+        },
+        "issuetype": {
+         "id": "10411",
+         "name": "Requerimiento",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-06T11:14:26.226-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SCIMSI-98",
+   "fields": {
+    "summary": "Solicitud de prueba 2",
+    "issuetype": {
+     "id": "10411",
+     "name": "Requerimiento",
+     "subtask": false
+    },
+    "created": "2026-10-06T14:17:43.566-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-2",
+     "displayName": "Persona 2",
+     "active": true
+    },
+    "priority": {
+     "name": "Mediana",
+     "id": "3"
+    },
+    "customfield_10552": {
+     "value": "Admin-Talento Humano",
+     "id": "10348",
+     "child": {
+      "value": "Solicitud de vacaciones",
+      "id": "10353"
+     }
+    },
+    "customfield_10200": [],
+    "customfield_10686": null,
+    "resolutiondate": "2026-10-06T15:48:33.624-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-06T14:17:43-0500",
+        "jira": "2026-10-06T14:17:43.566-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-06T15:48:33-0500",
+        "jira": "2026-10-06T15:48:33.645-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-14T15:17:43-0500",
+        "jira": "2026-10-14T15:17:43.566-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 144000000
+       },
+       "elapsedTime": {
+        "millis": 5450079
+       },
+       "remainingTime": {
+        "millis": 138549921
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-06T14:17:43-0500",
+        "jira": "2026-10-06T14:17:43.566-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-06T14:17:48-0500",
+        "jira": "2026-10-06T14:17:48.710-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-07T15:47:43-0500",
+        "jira": "2026-10-07T15:47:43.566-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 28800000
+       },
+       "elapsedTime": {
+        "millis": 5144
+       },
+       "remainingTime": {
+        "millis": 28794856
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134174",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "185893",
+       "key": "SMDSIS-98",
+       "fields": {
+        "summary": "Solicitud de adelanto de vacaciones – Diciembre 2026",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Mediana",
+         "id": "3"
+        },
+        "issuetype": {
+         "id": "10411",
+         "name": "Requerimiento",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-06T15:48:33.645-0500",
+    "status": {
+     "name": "Resuelto",
+     "id": "5",
+     "statusCategory": {
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "En curso"
+     }
+    }
+   }
+  },
+  {
+   "key": "SCIMSI-99",
+   "fields": {
+    "summary": "Solicitud de prueba 3",
+    "issuetype": {
+     "id": "10411",
+     "name": "Requerimiento",
+     "subtask": false
+    },
+    "created": "2026-10-07T09:18:32.723-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-3",
+     "displayName": "Persona 3",
+     "active": true
+    },
+    "priority": {
+     "name": "Mediana",
+     "id": "3"
+    },
+    "customfield_10552": {
+     "value": "Infraestructura",
+     "id": "10349",
+     "child": {
+      "value": "\tOtro (Especifique en la descripción)",
+      "id": "10401"
+     }
+    },
+    "customfield_10200": [],
+    "customfield_10686": null,
+    "resolutiondate": "2026-10-07T09:31:22.886-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T09:18:32-0500",
+        "jira": "2026-10-07T09:18:32.723-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-07T09:31:22-0500",
+        "jira": "2026-10-07T09:31:22.906-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-15T10:18:32-0500",
+        "jira": "2026-10-15T10:18:32.723-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 144000000
+       },
+       "elapsedTime": {
+        "millis": 770183
+       },
+       "remainingTime": {
+        "millis": 143229817
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T09:18:32-0500",
+        "jira": "2026-10-07T09:18:32.723-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-07T09:18:38-0500",
+        "jira": "2026-10-07T09:18:38.926-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-08T10:48:32-0500",
+        "jira": "2026-10-08T10:48:32.723-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 28800000
+       },
+       "elapsedTime": {
+        "millis": 6203
+       },
+       "remainingTime": {
+        "millis": 28793797
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134197",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "185957",
+       "key": "SMDSIS-99",
+       "fields": {
+        "summary": "Solicitud revisión acceso a servidor de pruebas Upgrade Genexus",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Mediana",
+         "id": "3"
+        },
+        "issuetype": {
+         "id": "10411",
+         "name": "Requerimiento",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-07T09:32:55.155-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SCIMSI-100",
+   "fields": {
+    "summary": "Solicitud de prueba 4",
+    "issuetype": {
+     "id": "10411",
+     "name": "Requerimiento",
+     "subtask": false
+    },
+    "created": "2026-10-07T09:30:44.461-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-3",
+     "displayName": "Persona 3",
+     "active": true
+    },
+    "priority": {
+     "name": "Mediana",
+     "id": "3"
+    },
+    "customfield_10552": {
+     "value": "Infraestructura",
+     "id": "10349",
+     "child": {
+      "value": "\tOtro (Especifique en la descripción)",
+      "id": "10401"
+     }
+    },
+    "customfield_10200": [],
+    "customfield_10686": null,
+    "resolutiondate": "2026-10-22T09:02:06.855-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T09:30:44-0500",
+        "jira": "2026-10-07T09:30:44.461-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-22T09:02:06-0500",
+        "jira": "2026-10-22T09:02:06.879-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-15T10:30:44-0500",
+        "jira": "2026-10-15T10:30:44.461-0500"
+       },
+       "breached": true,
+       "goalDuration": {
+        "millis": 144000000
+       },
+       "elapsedTime": {
+        "millis": 255682418
+       },
+       "remainingTime": {
+        "millis": -111682418
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T09:30:44-0500",
+        "jira": "2026-10-07T09:30:44.461-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-07T09:30:51-0500",
+        "jira": "2026-10-07T09:30:51.573-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-08T11:00:44-0500",
+        "jira": "2026-10-08T11:00:44.461-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 28800000
+       },
+       "elapsedTime": {
+        "millis": 7112
+       },
+       "remainingTime": {
+        "millis": 28792888
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134198",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "185959",
+       "key": "SMDSIS-100",
+       "fields": {
+        "summary": "Solicitud revisión acceso a servidor de pruebas Upgrade Genexus",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Mediana",
+         "id": "3"
+        },
+        "issuetype": {
+         "id": "10411",
+         "name": "Requerimiento",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-22T09:48:03.534-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SCIMSI-101",
+   "fields": {
+    "summary": "Solicitud de prueba 5",
+    "issuetype": {
+     "id": "10411",
+     "name": "Requerimiento",
+     "subtask": false
+    },
+    "created": "2026-10-07T10:47:43.543-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-4",
+     "displayName": "Persona 4",
+     "active": true
+    },
+    "priority": {
+     "name": "Alta",
+     "id": "2"
+    },
+    "customfield_10552": {
+     "value": "Infraestructura",
+     "id": "10349",
+     "child": {
+      "value": "\tOtro (Especifique en la descripción)",
+      "id": "10401"
+     }
+    },
+    "customfield_10200": [],
+    "customfield_10686": null,
+    "resolutiondate": "2026-10-22T10:40:41.012-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T10:47:43-0500",
+        "jira": "2026-10-07T10:47:43.543-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-22T10:40:41-0500",
+        "jira": "2026-10-22T10:40:41.036-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-13T08:47:43-0500",
+        "jira": "2026-10-13T08:47:43.543-0500"
+       },
+       "breached": true,
+       "goalDuration": {
+        "millis": 86400000
+       },
+       "elapsedTime": {
+        "millis": 256977493
+       },
+       "remainingTime": {
+        "millis": -170577493
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T10:47:43-0500",
+        "jira": "2026-10-07T10:47:43.543-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-07T10:47:49-0500",
+        "jira": "2026-10-07T10:47:49.709-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-08T08:17:43-0500",
+        "jira": "2026-10-08T08:17:43.543-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 14400000
+       },
+       "elapsedTime": {
+        "millis": 6166
+       },
+       "remainingTime": {
+        "millis": 14393834
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134203",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "185975",
+       "key": "SMDSIS-101",
+       "fields": {
+        "summary": "SOLICITUD LICENCIA MICROSOFT OFFICE",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Alta",
+         "id": "2"
+        },
+        "issuetype": {
+         "id": "10411",
+         "name": "Requerimiento",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-22T16:01:08.117-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SCIMSI-102",
+   "fields": {
+    "summary": "Solicitud de prueba 6",
+    "issuetype": {
+     "id": "10412",
+     "name": "Incidencia",
+     "subtask": false
+    },
+    "created": "2026-10-07T14:40:07.191-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-5",
+     "displayName": "Persona 5",
+     "active": true
+    },
+    "priority": {
+     "name": "Alta",
+     "id": "2"
+    },
+    "customfield_10552": null,
+    "customfield_10200": [],
+    "customfield_10686": {
+     "value": "Infraestructura",
+     "id": "10792",
+     "child": {
+      "value": "Error Usuario",
+      "id": "10821"
+     }
+    },
+    "resolutiondate": "2026-10-22T11:03:14.171-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T14:40:07-0500",
+        "jira": "2026-10-07T14:40:07.191-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-22T11:03:14-0500",
+        "jira": "2026-10-22T11:03:14.199-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-08T16:10:07-0500",
+        "jira": "2026-10-08T16:10:07.191-0500"
+       },
+       "breached": true,
+       "goalDuration": {
+        "millis": 28800000
+       },
+       "elapsedTime": {
+        "millis": 251587008
+       },
+       "remainingTime": {
+        "millis": -222787008
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T14:40:07-0500",
+        "jira": "2026-10-07T14:40:07.191-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-07T14:40:13-0500",
+        "jira": "2026-10-07T14:40:13.244-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-07T15:40:07-0500",
+        "jira": "2026-10-07T15:40:07.191-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 3600000
+       },
+       "elapsedTime": {
+        "millis": 6053
+       },
+       "remainingTime": {
+        "millis": 3593947
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134210",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "186007",
+       "key": "SMDSIS-102",
+       "fields": {
+        "summary": "Error de conexión en la VPN",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Alta",
+         "id": "2"
+        },
+        "issuetype": {
+         "id": "10412",
+         "name": "Incidencia",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-22T11:03:14.199-0500",
+    "status": {
+     "name": "Resuelto",
+     "id": "5",
+     "statusCategory": {
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "En curso"
+     }
+    }
+   }
+  },
+  {
+   "key": "SCIMSI-103",
+   "fields": {
+    "summary": "Solicitud de prueba 7",
+    "issuetype": {
+     "id": "10411",
+     "name": "Requerimiento",
+     "subtask": false
+    },
+    "created": "2026-10-07T15:39:23.089-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-6",
+     "displayName": "Persona 6",
+     "active": true
+    },
+    "priority": {
+     "name": "Mediana",
+     "id": "3"
+    },
+    "customfield_10552": {
+     "value": "Admin-Talento Humano",
+     "id": "10348",
+     "child": {
+      "value": "Solicitud de permiso",
+      "id": "10354"
+     }
+    },
+    "customfield_10200": [],
+    "customfield_10686": null,
+    "resolutiondate": "2026-10-08T17:28:51.321-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T15:39:23-0500",
+        "jira": "2026-10-07T15:39:23.089-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-08T17:28:51-0500",
+        "jira": "2026-10-08T17:28:51.341-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-16T08:09:23-0500",
+        "jira": "2026-10-16T08:09:23.089-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 144000000
+       },
+       "elapsedTime": {
+        "millis": 26436911
+       },
+       "remainingTime": {
+        "millis": 117563089
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T15:39:23-0500",
+        "jira": "2026-10-07T15:39:23.089-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-07T15:39:29-0500",
+        "jira": "2026-10-07T15:39:29.438-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-09T08:39:23-0500",
+        "jira": "2026-10-09T08:39:23.089-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 28800000
+       },
+       "elapsedTime": {
+        "millis": 6349
+       },
+       "remainingTime": {
+        "millis": 28793651
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134211",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "186011",
+       "key": "SMDSIS-103",
+       "fields": {
+        "summary": "Permiso ",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Mediana",
+         "id": "3"
+        },
+        "issuetype": {
+         "id": "10411",
+         "name": "Requerimiento",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-13T11:29:22.202-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SCIMSI-104",
+   "fields": {
+    "summary": "Solicitud de prueba 8",
+    "issuetype": {
+     "id": "10411",
+     "name": "Requerimiento",
+     "subtask": false
+    },
+    "created": "2026-10-07T20:38:31.002-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-7",
+     "displayName": "Persona 7",
+     "active": true
+    },
+    "priority": {
+     "name": "Mediana",
+     "id": "3"
+    },
+    "customfield_10552": {
+     "value": "Admin-Talento Humano",
+     "id": "10348",
+     "child": {
+      "value": "Solicitud de permiso",
+      "id": "10354"
+     }
+    },
+    "customfield_10200": [],
+    "customfield_10686": null,
+    "resolutiondate": "2026-10-08T07:22:57.615-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T20:38:31-0500",
+        "jira": "2026-10-07T20:38:31.002-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-08T07:22:57-0500",
+        "jira": "2026-10-08T07:22:57.637-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-16T09:00:00-0500",
+        "jira": "2026-10-16T09:00:00.000-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 144000000
+       },
+       "elapsedTime": {
+        "millis": 0
+       },
+       "remainingTime": {
+        "millis": 144000000
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-07T20:38:31-0500",
+        "jira": "2026-10-07T20:38:31.002-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-07T20:38:37-0500",
+        "jira": "2026-10-07T20:38:37.012-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-09T09:30:00-0500",
+        "jira": "2026-10-09T09:30:00.000-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 28800000
+       },
+       "elapsedTime": {
+        "millis": 0
+       },
+       "remainingTime": {
+        "millis": 28800000
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134221",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "186036",
+       "key": "SMDSIS-104",
+       "fields": {
+        "summary": "SOLICITUD DE PERMISO",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Mediana",
+         "id": "3"
+        },
+        "issuetype": {
+         "id": "10411",
+         "name": "Requerimiento",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-08T07:29:02.907-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SCIMSI-105",
+   "fields": {
+    "summary": "Solicitud de prueba 9",
+    "issuetype": {
+     "id": "10411",
+     "name": "Requerimiento",
+     "subtask": false
+    },
+    "created": "2026-10-08T08:15:20.215-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-8",
+     "displayName": "Persona 8",
+     "active": true
+    },
+    "priority": {
+     "name": "Mediana",
+     "id": "3"
+    },
+    "customfield_10552": {
+     "value": "Admin-Talento Humano",
+     "id": "10348",
+     "child": {
+      "value": "Solicitud de vacaciones",
+      "id": "10353"
+     }
+    },
+    "customfield_10200": [],
+    "customfield_10686": null,
+    "resolutiondate": "2026-10-21T11:39:03.694-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-08T08:15:20-0500",
+        "jira": "2026-10-08T08:15:20.215-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-21T11:39:03-0500",
+        "jira": "2026-10-21T11:39:03.717-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-16T09:15:20-0500",
+        "jira": "2026-10-16T09:15:20.215-0500"
+       },
+       "breached": true,
+       "goalDuration": {
+        "millis": 144000000
+       },
+       "elapsedTime": {
+        "millis": 222823502
+       },
+       "remainingTime": {
+        "millis": -78823502
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-08T08:15:20-0500",
+        "jira": "2026-10-08T08:15:20.215-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-08T08:15:26-0500",
+        "jira": "2026-10-08T08:15:26.681-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-09T09:45:20-0500",
+        "jira": "2026-10-09T09:45:20.215-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 28800000
+       },
+       "elapsedTime": {
+        "millis": 6466
+       },
+       "remainingTime": {
+        "millis": 28793534
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134223",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "186049",
+       "key": "SMDSIS-105",
+       "fields": {
+        "summary": "SOLICITUD  DIA DE VACACIONES",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Mediana",
+         "id": "3"
+        },
+        "issuetype": {
+         "id": "10411",
+         "name": "Requerimiento",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-21T11:39:03.717-0500",
+    "status": {
+     "name": "Resuelto",
+     "id": "5",
+     "statusCategory": {
+      "id": 4,
+      "key": "indeterminate",
+      "colorName": "yellow",
+      "name": "En curso"
+     }
+    }
+   }
+  },
+  {
+   "key": "SCIMSI-106",
+   "fields": {
+    "summary": "Solicitud de prueba 10",
+    "issuetype": {
+     "id": "10411",
+     "name": "Requerimiento",
+     "subtask": false
+    },
+    "created": "2026-10-09T09:49:00.451-0500",
+    "project": {
+     "id": "11620",
+     "key": "SCIMSI",
+     "name": "SCITECH Mesa de Servicio Interna SD",
+     "projectTypeKey": "service_desk",
+     "projectCategory": {
+      "id": "10000",
+      "name": "Proyectos Vigentes SD"
+     }
+    },
+    "reporter": {
+     "accountId": "anon-9",
+     "displayName": "Persona 9",
+     "active": true
+    },
+    "priority": {
+     "name": "Alta",
+     "id": "2"
+    },
+    "customfield_10552": {
+     "value": "Infraestructura",
+     "id": "10349",
+     "child": {
+      "value": "Resetear Clave de Dominio",
+      "id": "10431"
+     }
+    },
+    "customfield_10200": [],
+    "customfield_10686": null,
+    "resolutiondate": "2026-10-09T11:42:08.589-0500",
+    "customfield_10418": {
+     "id": "48",
+     "name": "Tiempo hasta resolución",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-09T09:49:00-0500",
+        "jira": "2026-10-09T09:49:00.451-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-09T11:42:08-0500",
+        "jira": "2026-10-09T11:42:08.609-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-14T16:19:00-0500",
+        "jira": "2026-10-14T16:19:00.451-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 86400000
+       },
+       "elapsedTime": {
+        "millis": 6788158
+       },
+       "remainingTime": {
+        "millis": 79611842
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "customfield_10419": {
+     "id": "47",
+     "name": "Tiempo hasta primera respuesta",
+     "_links": {},
+     "completedCycles": [
+      {
+       "startTime": {
+        "iso8601": "2026-10-09T09:49:00-0500",
+        "jira": "2026-10-09T09:49:00.451-0500"
+       },
+       "stopTime": {
+        "iso8601": "2026-10-09T09:49:06-0500",
+        "jira": "2026-10-09T09:49:06.168-0500"
+       },
+       "breachTime": {
+        "iso8601": "2026-10-09T15:49:00-0500",
+        "jira": "2026-10-09T15:49:00.451-0500"
+       },
+       "breached": false,
+       "goalDuration": {
+        "millis": 14400000
+       },
+       "elapsedTime": {
+        "millis": 5717
+       },
+       "remainingTime": {
+        "millis": 14394283
+       }
+      }
+     ],
+     "slaDisplayFormat": "NEW_SLA_FORMAT"
+    },
+    "issuelinks": [
+     {
+      "id": "134277",
+      "type": {
+       "id": "10200",
+       "name": "Problem/Incident",
+       "inward": "is caused by",
+       "outward": "causes"
+      },
+      "inwardIssue": {
+       "id": "186142",
+       "key": "SMDSIS-106",
+       "fields": {
+        "summary": "Problema con la VPN",
+        "status": {
+         "name": "Cerrado",
+         "id": "6",
+         "statusCategory": {
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Listo"
+         }
+        },
+        "priority": {
+         "name": "Alta",
+         "id": "2"
+        },
+        "issuetype": {
+         "id": "10411",
+         "name": "Requerimiento",
+         "subtask": false
+        }
+       }
+      }
+     }
+    ],
+    "updated": "2026-10-22T14:58:20.802-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  }
+ ],
+ "sw": [
+  {
+   "key": "SMDSIS-106",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-10",
+     "displayName": "Persona 10",
+     "active": true
+    },
+    "updated": "2026-10-09T11:44:09.818-0500",
+    "created": "2026-10-09T09:49:03.491-0500",
+    "resolutiondate": "2026-10-09T11:42:04.757-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SMDSIS-105",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-11",
+     "displayName": "Persona 11",
+     "active": true
+    },
+    "updated": "2026-10-21T11:39:01.331-0500",
+    "created": "2026-10-08T08:15:23.579-0500",
+    "resolutiondate": "2026-10-21T11:39:01.290-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SMDSIS-104",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-12",
+     "displayName": "Persona 12",
+     "active": true
+    },
+    "updated": "2026-10-08T07:22:55.002-0500",
+    "created": "2026-10-07T20:38:34.619-0500",
+    "resolutiondate": "2026-10-08T07:22:54.950-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SMDSIS-103",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-13",
+     "displayName": "Persona 13",
+     "active": true
+    },
+    "updated": "2026-10-09T06:30:38.706-0500",
+    "created": "2026-10-07T15:39:26.256-0500",
+    "resolutiondate": "2026-10-09T06:30:38.368-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SMDSIS-102",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-14",
+     "displayName": "Persona 14",
+     "active": true
+    },
+    "updated": "2026-10-22T11:03:11.788-0500",
+    "created": "2026-10-07T14:40:10.448-0500",
+    "resolutiondate": "2026-10-22T11:03:11.468-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SMDSIS-101",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-14",
+     "displayName": "Persona 14",
+     "active": true
+    },
+    "updated": "2026-10-22T10:40:38.259-0500",
+    "created": "2026-10-07T10:47:46.657-0500",
+    "resolutiondate": "2026-10-22T10:40:38.209-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SMDSIS-100",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-14",
+     "displayName": "Persona 14",
+     "active": true
+    },
+    "updated": "2026-10-22T09:02:04.128-0500",
+    "created": "2026-10-07T09:30:48.510-0500",
+    "resolutiondate": "2026-10-22T09:02:03.793-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SMDSIS-99",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-15",
+     "displayName": "Persona 15",
+     "active": true
+    },
+    "updated": "2026-10-07T09:31:20.356-0500",
+    "created": "2026-10-07T09:18:36.756-0500",
+    "resolutiondate": "2026-10-07T09:31:20.070-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SMDSIS-98",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-3",
+     "displayName": "Persona 3",
+     "active": true
+    },
+    "updated": "2026-10-20T16:05:06.197-0500",
+    "created": "2026-10-06T14:17:46.581-0500",
+    "resolutiondate": "2026-10-06T15:48:30.795-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  },
+  {
+   "key": "SMDSIS-97",
+   "fields": {
+    "project": {
+     "id": "11621",
+     "key": "SMDSIS",
+     "name": "SCITECH Mesa de Servicio Interna SW",
+     "projectTypeKey": "software",
+     "projectCategory": {
+      "id": "10002",
+      "name": "Proyectos Vigentes SW"
+     }
+    },
+    "assignee": {
+     "accountId": "anon-12",
+     "displayName": "Persona 12",
+     "active": true
+    },
+    "updated": "2026-10-06T11:13:51.066-0500",
+    "created": "2026-10-06T09:27:52.543-0500",
+    "resolutiondate": "2026-10-06T11:13:51.017-0500",
+    "status": {
+     "name": "Cerrado",
+     "id": "6",
+     "statusCategory": {
+      "id": 3,
+      "key": "done",
+      "colorName": "green",
+      "name": "Listo"
+     }
+    }
+   }
+  }
+ ]
+}

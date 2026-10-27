@@ -106,3 +106,24 @@ Los tres comparten generador (`generar_tablero.py`, perfil por variable `PERFIL`
 Orden: mesa interna → Salud 360 → clientes vigentes → colaboradores.
 
 Cada tablero pasa por **una semana en paralelo**. Criterio: coinciden el total de solicitudes, las abiertas y los porcentajes de ANS y de cierre (mesas), y las horas totales, las personas y la capacidad por área (colaboradores). Solo entonces se apaga la tarea programada de Claude correspondiente.
+
+## 9. Estado de la migración
+
+**Regla vigente:** los tableros y tareas programadas actuales en Claude **no se modifican**. El servidor corre en paralelo una semana y la decisión de apagar lo de Claude es de Albert.
+
+| Tablero | Estado |
+|---|---|
+| Mesa interna (`interna_nueva`) | Construido y probado sin conexión. Falta la corrida real en el servidor |
+| Salud 360 | Pendiente (el ejecutor ya fija el sitio correcto y `INCLUIR_TEXTOS=0`) |
+| Clientes vigentes | Pendiente (el ejecutor ya lo contempla) |
+| Colaboradores | Pendiente |
+
+**Mesa interna, lo que hay en `jobs/`:**
+- `mesas/generar_tablero.py` y `mesas/plantilla.html`: copias **sin cambios** de las del artefacto actual.
+- `ejecutar_mesa.py`: consulta Jira, reintenta, valida el cuadre (las solicitudes no bajan más de 5 %), publica de forma atómica y conserva la última versión buena si algo falla.
+- `programador.py`: cada 30 min, lunes a viernes sin festivos, de 6:00 a 19:30 (Bogotá). Festivos en `config/festivos.json`; **agregar 2027 antes de diciembre**.
+- Acceso: Caddy consulta `/api/authz/mesas-interna` antes de entregar la página (comité, PM y líderes; los clientes externos reciben 403).
+
+**Verificación hecha:** regenerando sin conexión con los datos reales del 26 oct, las 45 solicitudes y todos sus campos coinciden con el artefacto actual (0 diferencias). 12 pruebas de `jobs/` (`python3 -m unittest discover -s test`) y 13 de `api/` (`npm test`).
+
+**Sin verificar todavía:** `Caddyfile` y `docker-compose.yml` no se han ejecutado (no hay Caddy ni Docker en el entorno de desarrollo); la primera prueba real es en Contabo con `docker compose config` y luego `up`.
